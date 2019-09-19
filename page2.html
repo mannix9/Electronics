@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programming page</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <h1>Programming can be <em>fun</em> and <strong>enlightening</strong> too</h1>
+    <h2 id="main-heading">I like to create.</h2>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script>
+        let headingElement = document.getElementById("main-heading");
+        alert(headingElement.innerHTML);
+        let newHeadingText = prompt("Please type here for a new heading:");
+        headingElement.innerHTML = newHeadingText;
+        for(let i = 0; i < 1; i++){
+            let hobby = prompt("Please tell me one of your hobbies! ");
+            $("body").append("<p>" + hobby + "</p>");
+        
+        }
+    </script>
+    <script>$(h1).fadeout(3000)</script>
+
+    <p><strong>You have heard about them,</strong> bought them and even played on them, but how many people think of programming computers for themselves.<img class="bn" src="images/prog.jpg">I love to program computers a lot.</p>
+
+    <p>Computer alogorithms as we know them now are not yet 100 years old yet they have completely changed the world.</p>
+</body>
+</html>
